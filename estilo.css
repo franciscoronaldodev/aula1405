@@ -43,3 +43,22 @@
         flex-direction: column;
         justify-content: center;
     }
+
+
+    }
+
+.imagem {
+    height: auto;
+    display: block;
+}
+
+.sobreposicao {
+    position: absolute;
+    bottom: 0; /* Ou top, ou center. */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Preto com 30% de opacidade */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
